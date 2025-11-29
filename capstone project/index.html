@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wanderly Travel Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="https://picsum.photos/seed/logo/48/48" alt="Wanderly logo" class="logo">
+        <h1>Wanderly</h1>
+      </div>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#itinerary">Itineraries</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">☰</button>
+    </div>
+  </header>
+
+  <div id="mobile-menu" class="mobile-menu" hidden>
+    <ul>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#itinerary">Itineraries</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <main id="main">
+    <!-- Hero / Banner -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h2>Explore the world with curated tour packages</h2>
+          <p>Handpicked itineraries • Local guides • Flexible dates</p>
+          <p class="cta-row">
+            <a href="#packages" class="btn primary">View Packages</a>
+            <a href="#contact" class="btn ghost">Request Quote</a>
+          </p>
+        </div>
+        <div class="hero-image">
+          <img src="https://picsum.photos/seed/hero/800/600" alt="Beautiful travel destination">
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages -->
+    <section id="packages" class="container section">
+      <h3>Popular Tour Packages</h3>
+      <p class="lead">Choose from weekend escapes to 10-day adventures — each package includes accommodation & local guide options.</p>
+
+      <div class="cards-grid">
+        <!-- card 1 -->
+        <article class="card">
+          <img src="https://picsum.photos/seed/pack1/600/400" alt="Beach Paradise">
+          <div class="card-body">
+            <h4>Beach Paradise — 5 Days</h4>
+            <p class="meta">From <strong>₹24,999</strong> • flights optional</p>
+            <ul>
+              <li>3★ hotel stay</li>
+              <li>Daily breakfast</li>
+              <li>Boat tour & snorkelling</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#itinerary" class="btn small">View Itinerary</a>
+              <a href="#contact" class="btn small outline">Book Now</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- card 2 -->
+        <article class="card">
+          <img src="https://picsum.photos/seed/pack2/600/400" alt="Mountain Trek">
+          <div class="card-body">
+            <h4>Mountain Trek — 7 Days</h4>
+            <p class="meta">From <strong>₹34,500</strong></p>
+            <ul>
+              <li>Guided treks</li>
+              <li>Camping nights</li>
+              <li>Meals included</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#itinerary" class="btn small">View Itinerary</a>
+              <a href="#contact" class="btn small outline">Book Now</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- card 3 -->
+        <article class="card">
+          <img src="https://picsum.photos/seed/pack3/600/400" alt="City Break">
+          <div class="card-body">
+            <h4>City Break — 3 Days</h4>
+            <p class="meta">From <strong>₹11,999</strong></p>
+            <ul>
+              <li>Central hotel</li>
+              <li>Walking tours</li>
+              <li>Museum passes</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#itinerary" class="btn small">View Itinerary</a>
+              <a href="#contact" class="btn small outline">Book Now</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Itinerary -->
+    <section id="itinerary" class="container section">
+      <h3>Sample Itinerary — Beach Paradise</h3>
+      <div class="itinerary">
+        <div class="it-day">
+          <h4>Day 1 — Arrival & Relax</h4>
+          <p>Arrive, check-in, sunset beach walk, welcome dinner.</p>
+        </div>
+        <div class="it-day">
+          <h4>Day 2 — Island Hopping</h4>
+          <p>Boat trip with snorkeling and picnic on a private beach.</p>
+        </div>
+        <div class="it-day">
+          <h4>Day 3 — Free Day</h4>
+          <p>Optional spa, local market, or water sports (additional cost).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="container section">
+      <h3>Traveler Reviews</h3>
+      <blockquote class="review">
+        <p>"Amazing trip—excellent guide and a well-organized itinerary. Highly recommend!"</p>
+        <footer>— Asha R.</footer>
+      </blockquote>
+
+      <div class="reviews-grid">
+        <div class="small-review">
+          <p>"Best family trip ever!"</p>
+          <small>— Rahul</small>
+        </div>
+        <div class="small-review">
+          <p>"Great value for money."</p>
+          <small>— Preeti</small>
+        </div>
+        <div class="small-review">
+          <p>"Loved the local food tour."</p>
+          <small>— Simon</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Inquiry form -->
+    <section id="contact" class="container section contact-section">
+      <h3>Inquiry & Booking</h3>
+      <p class="lead">Fill this quick form — we’ll respond within 24 hours.</p>
+
+      <form class="contact-form" action="#" method="post" novalidate>
+        <div class="form-grid">
+          <label>
+            Full name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+
+          <label>
+            Phone
+            <input type="tel" name="phone" placeholder="+91 99999 99999">
+          </label>
+
+          <label>
+            Select Package
+            <select name="package">
+              <option>Beach Paradise — 5 Days</option>
+              <option>Mountain Trek — 7 Days</option>
+              <option>City Break — 3 Days</option>
+            </select>
+          </label>
+
+          <label class="full">
+            Travel dates (approx.)
+            <input type="text" name="dates" placeholder="e.g., 10-16 Dec 2025">
+          </label>
+
+          <label class="full">
+            Message
+            <textarea name="message" rows="4" placeholder="Tell us any special requests"></textarea>
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Send Inquiry</button>
+          <button type="reset" class="btn outline">Reset</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Wanderly</h4>
+        <p>© <span id="year"></span> Wanderly Travel Agency. All rights reserved.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <address>
+          Delhi, India<br>
+          <a href="tel:+911234567890">+91 12345 67890</a><br>
+          <a href="mailto:info@wanderly.example">info@wanderly.example</a>
+        </address>
+      </div>
+      <div>
+        <h4>Follow us</h4>
+        <ul class="social">
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="Twitter">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // small JS to handle mobile menu toggle and year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const btn = document.querySelector('.menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', !expanded);
+      if (menu.hasAttribute('hidden')) menu.removeAttribute('hidden');
+      else menu.setAttribute('hidden', '');
+    });
+  </script>
+</body>
+</html>
